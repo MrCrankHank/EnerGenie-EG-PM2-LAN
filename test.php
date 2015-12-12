@@ -4,7 +4,7 @@ require_once dirname(__FILE__) . '/class.EnerGenieSwitcher.php';
 /**
  * Initialize with connection parameters (ip address and credentials)
  */
-$egs = new EnerGenieSwitcher('1.2.3.4', 'my-password');
+$egs = new EnerGenieSwitcher('10.10.10.10', 'password');
 
 /**
  * Switch port statuses
